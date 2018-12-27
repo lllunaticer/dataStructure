@@ -1,5 +1,5 @@
 package Graph;
-
+// 邻接表数据结构
 import java.util.Scanner;
 
 public class MGragph {
@@ -43,6 +43,23 @@ public class MGragph {
         System.out.println("图构建完成！");
 
     }
+
+    double getVex(int i){
+        return vexs[i];
+    }
+
+    double getArc(int i, int j){
+        return arcs[i][j];
+    }
+
+    int getNumVex(){
+        return numVertexes;
+    }
+
+    int getNumEdges(){
+        return numEdges;
+    }
+
 
     public static void main(String[] args) {
         MGragph a = new MGragph();
