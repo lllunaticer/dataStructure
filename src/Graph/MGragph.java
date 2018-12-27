@@ -3,8 +3,8 @@ package Graph;
 import java.util.Scanner;
 
 public class MGragph {
-    public final int MAXVEX = 100;
-    public final int INFINIFY = Integer.MAX_VALUE;
+    private final int MAXVEX = 100;
+    private final int INFINIFY = Integer.MAX_VALUE;
 
     //the type of vexs and arcs should be defined by the user
     //here we set double as default
@@ -14,6 +14,7 @@ public class MGragph {
     //the number of vertexes and edges of the current graph
     private int numVertexes, numEdges;
 
+    //构建无向图邻接矩阵
     public void creatMGraph(){
         System.out.println("请输入顶点数和边数, 以空格隔开");
         Scanner in  = new Scanner(System.in);
