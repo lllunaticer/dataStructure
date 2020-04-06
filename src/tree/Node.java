@@ -6,7 +6,7 @@ public class Node {
     private boolean leftIsThread;
     private Node right;
     private boolean rightIsThread;
-
+// 喵喵爱我
     public Node(int data){
       this.data = data;
       this.left = null;
