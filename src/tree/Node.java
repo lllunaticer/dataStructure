@@ -19,6 +19,7 @@ public class Node {
         return data;
     }
 
+//    假装bug修好了
     public void setData(int data)
     {
         this.data = data;
