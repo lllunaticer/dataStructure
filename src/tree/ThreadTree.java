@@ -20,6 +20,7 @@ public class ThreadTree {
     /*
     * 创建二叉树
     */
+//    我爱喵喵
     public Node createTree(int[] data, int index){
         if(index>data.length)
             return null;
